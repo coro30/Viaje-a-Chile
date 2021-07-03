@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
+    color: white;
     }
 
 .navbar-brand {
@@ -9,16 +10,19 @@ body {
 
 h4 {
     color: white;
+    text-align: center;
 }
 
+hr {
+    color: white;
+}
 p {
     font-size: 12pt;
     color: white;
+
 }
 
-.container {
-    background-color: black;
-}
+
 
 footer {
     height: 100px;
@@ -27,4 +31,8 @@ footer {
     font-size: 16px;
     font-weight: lighter;
     padding-top: 20px;
+}
+
+.card body {
+    color: white;
 }
