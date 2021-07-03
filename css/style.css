@@ -18,3 +18,11 @@ p {
 .container {
     background-color: black;
 }
+footer {
+    height: 100px;
+    text-align: center;
+    color: #707070;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 20px;
+}
