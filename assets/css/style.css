@@ -8,14 +8,22 @@ body {
     display: inline-block;
 }
 
+h3 {
+    display: inline-block;
+}
+
 h4 {
     color: white;
     text-align: center;
 }
 
+.barra {
+    background-color: teal;
+    text-align: center;
+}
 hr {
     border-color: teal;
-    width: 90%;
+    
 }
 p {
     font-size: 12pt;
@@ -33,6 +41,3 @@ footer {
 
 }
 
-.card body {
-    color: white;
-}
