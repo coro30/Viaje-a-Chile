@@ -21,7 +21,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white">
         <a class="navbar-brand" href="#">
-            <img src="assets/img/viajes.svg" width="132" height="45" class="d-inline-block" alt="Logo Viajes Chile">
+            <img src="assets/img/viajes.svg" width="130" height="45" class="d-inline-block align top" alt="Logo Viajes Chile">
             <h3>Viajes Chile</h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -29,7 +29,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto pr-5">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Inicio <span class="sr-only ">(current)</span></a>
                 </li>
@@ -45,9 +45,10 @@
             </ul>
         </div>
     </nav>
+    
 
 
-    <section>
+    <section class="container-fluid expand-lg">
         <div class="row">
             <div class="col">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -67,7 +68,7 @@
         </div>
     </section>
 
-    <article class="container mt-5 mb-3">
+    <section class="container d-none d-lg-block >hide on screem smaller than lg">
         <div>
             <h4>¿Quiénes somos?</h4>
             <hr>
@@ -113,7 +114,7 @@
                 </p>
             </div>
         </div>
-    </article>
+    </section>
 
     <section class="container mt-15 mb-3">
         <div>
@@ -210,6 +211,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
+        <script src="assets/js/jqueryviaje.js"></script>
 </body>
 
 </html>

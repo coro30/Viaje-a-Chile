@@ -4,10 +4,6 @@ body {
     color: white;
     }
 
-.navbar-brand {
-    display: inline-block;
-}
-
 h3 {
     display: inline-block;
     margin-top: 10px;
@@ -16,24 +12,26 @@ h3 {
 h4 {
     color: white;
     text-align: center;
+    padding-top: 20px;
 }
 
 .barra {
     background-color: teal;
     text-align: center;
-    height: 30px;
+    height: 33px;
     font-size: 22px;
     margin-top: 10px;
 }
+
 hr {
     border-color: teal;
     
 }
+
 p {
     font-size: 10pt;
     color: white;
     margin-top: 5px;
-
 }
 
 footer {
@@ -42,8 +40,8 @@ footer {
     color: white;
     font-size: 30px;
     padding-top: 10px;
-
 }
+
 #marca {
     text-align: right;
     display: inline-block;
