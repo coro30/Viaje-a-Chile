@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+   
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
@@ -7,6 +12,7 @@ body {
 .navbar {
     background-color: teal;
     color: white;
+    
 }
 
 h3 {
@@ -17,7 +23,7 @@ h3 {
 h4 {
     color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
 .barra {
@@ -31,12 +37,14 @@ h4 {
 hr {
     border-color: teal;
     
+        
 }
 
 p {
     font-size: 10pt;
     color: white;
     margin-top: 5px;
+    margin-bottom: 40px;
 }
 
 footer {
