@@ -1,7 +1,11 @@
-$(function () {
+$(function () { 
 
-$(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-    })
-});
+    $(".section1").on("click", function (e) {
+        e.preventDefault();
+        const href = $(this).attr("href");
+        $("html, body").animate({ scrollTop: $(href).offset().top }, 1000);
+      });
+
+})
+
+    

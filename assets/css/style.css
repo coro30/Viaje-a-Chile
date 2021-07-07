@@ -4,6 +4,10 @@ body {
     color: white;
     }
 
+.navbar {
+    z-index: auto;
+}
+
 h3 {
     display: inline-block;
     margin-top: 10px;
@@ -54,4 +58,5 @@ footer {
 i {
     display: inline-block;
     padding: 8px;
+    color: inverse(1);
 }
