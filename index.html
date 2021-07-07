@@ -19,9 +19,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <a class="navbar-brand" href="#">
-            <img src="assets/img/viajes.svg" width="130" height="45" class="d-inline-block align top" alt="Logo Viajes Chile">
+            <img src="assets/img/viajes.svg" width="32" class="d-inline-block align top" alt="Logo Viajes Chile">
             <h3>Viajes Chile</h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -45,7 +45,7 @@
             </ul>
         </div>
     </nav>
-    
+
 
 
     <section class="container-fluid expand-lg">
@@ -98,7 +98,7 @@
                     excepturi hic veritatis, eius corrupti, sint quia quo id veniam qui autem? Veritatis sunt dolorem
                     illo.
                 </p>
-                <p class="barra"><i class="fas fa-mountain"></i></i></p>
+                <p class="barra"><i class="fas fa-mountain"></i></p>
             </div>
             <div class="col 4">
                 <p class="barra"><i class="fas fa-route"></i></p>
@@ -121,9 +121,9 @@
             <h4>Destacados</h4>
             <hr>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col 3">
-                <div class="card" style="width: 14rem;">
+                <div class="card mx-auto" style="max-width: 18rem;">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="Sur">
                     <div class="card-body bg-info">
                         <h5 class="card-title">Lorem ipsum dolor sit, amet</h5>
@@ -134,8 +134,8 @@
                 </div>
             </div>
             <div class="col 3">
-                <div class="card" style="width: 14rem;">
-                    <img src="assets/img/card22.jpg" class="card-img-top" alt="Lagos" height="190px">
+                <div class="card mx-auto" style="max-width: 18rem;">
+                    <img src="assets/img/card22.jpg" class="card-img-top" alt="Lagos">
                     <div class="card-body bg-info">
                         <h5 class="card-title">Lorem ipsum dolor sit, amet</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore vero
@@ -146,7 +146,7 @@
             </div>
 
             <div class="col 3">
-                <div class="card" style="width: 14rem;">
+                <div class="card mx-auto" style="max-width: 18rem;">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="Salar">
                     <div class="card-body bg-info">
                         <h5 class="card-title">Lorem ipsum dolor sit, amet</h5>
@@ -158,7 +158,7 @@
             </div>
 
             <div class="col 3">
-                <div class="card" style="width: 14rem;">
+                <div class="card max-auto" style="max-width: 18rem;">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosques">
                     <div class="card-body bg-info">
                         <h5 class="card-title">Lorem ipsum dolor sit, amet</h5>
@@ -172,15 +172,14 @@
     </section>
 
     <section id="section3" class container>
-        <div >
+        <div>
             <h4>Contacto</h4>
             <hr>
         </div>
-
         <div class="row justify-content-center">
-            <div col md-8>
+            <div class="col-md-8">
                 <div class="typeform-widget"
-                    data-url="https://form.typeform.com/to/fMqOBDQ5?typeform-medium=embed-snippet"
+                    data-url="https://form.typeform.com/to/lz8OaHHI?typeform-medium=embed-snippet"
                     style="width: 100%; height: 500px;"></div>
                 <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
             </div>
@@ -189,11 +188,17 @@
 
     <footer>
         <div class="container fluid">
-            <p id="marca">VIAJES CHILE</p>
-            <a href="http//github"><i class="fab fa-github"></i></a>
-            <a href= "http://linkedin"><i class="fab fa-linkedin"></i></a>
-            <a href="http://twitter.com"><i class="fab fa-twitter-square"></i></a>
-            <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <div class="row">
+                <div class="col-4 col-md-7">
+                    <p id= "marca" class= "pl-5">VIAJES CHILE</p>
+                </div>
+                <div class="col-8 col-md-5">
+                    <a href="http://www.github.com"><i class="fab fa-github"></i></a>
+                    <a href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    <a href="http://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                    <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
 
@@ -211,7 +216,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
-        <script src="assets/js/jqueryviaje.js"></script>
+    <script src="assets/js/jqueryviaje.js"></script>
 </body>
 
 </html>
