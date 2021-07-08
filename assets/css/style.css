@@ -53,10 +53,10 @@ p {
 }
 footer {
     background-color: teal;
-    height: 70px;
+    height: 110px;
     color: white;
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .iconos {
@@ -65,12 +65,10 @@ footer {
 }
 
 #marca {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 
 i {
-    display: inline-block;
-    padding: 8px;
     color: white;
 }
