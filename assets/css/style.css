@@ -47,6 +47,10 @@ p {
     margin-bottom: 40px;
 }
 
+.destacados {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 footer {
     background-color: teal;
     height: 70px;

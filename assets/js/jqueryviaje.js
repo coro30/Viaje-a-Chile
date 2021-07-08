@@ -1,6 +1,6 @@
 $(function () { 
 
-  $('#barra').tooltip('show')
+  $('[data-toggle="tooltip"]').tooltip()
 
 })
 
